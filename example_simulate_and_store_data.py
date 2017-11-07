@@ -43,7 +43,7 @@ network_model:  defined in 'simulation_configurations.py'
                 sim_context_model: context model replica
 """
 sim_params = {
-    'sim_time': 5e5,
+    'sim_time': 1e5,
     'dt': 10,
     'stimuli_params': input_params,
     'network_model': sim_energy_model,
