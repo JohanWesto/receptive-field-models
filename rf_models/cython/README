@@ -1,0 +1,5 @@
+// Compile cython code
+python setup.py build_ext --inplace
+
+// Generate annotated html
+cython -a strf_cython.pyx
